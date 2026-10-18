@@ -8,3 +8,39 @@ body {
 h1 {
     color: #2563eb; text-align: center;
 }
+.profile-card {
+    background-color: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 24px;
+    width: 280px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-card h2 {
+    margin: 15px 0 8px;
+    color: #1E293B;
+}
+
+.user-class {
+    color: #64748B;
+    margin-bottom: 20px;
+}
+
+.message-btn {
+    background-color: #7C3AED;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
