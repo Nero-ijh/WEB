@@ -44,3 +44,9 @@ h1 {
     cursor: pointer;
     font-size: 14px;
 }
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
