@@ -1,4 +1,4 @@
-*
+* 
 {
     box-sizing: border-box; margin: 0; padding: 0;
 }
@@ -92,4 +92,148 @@ h1 {
   color: #7c3aed;
   border-bottom-color: #7c3aed;
   font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.glass-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #7C3AED,
+        #A855F7,
+        #EC4899,
+        #3B82F6
+    );
+
+    background-size: 300% 300%;
+}
+
+.glass-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 32px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: rgba(255, 255, 255, 0.25);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    border-radius: 24px;
+
+    box-shadow: 0 8px 32px rgba(15, 23, 42, 0.2);
+
+    transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.glass-card h1 {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.glass-card p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 28px;
+}
+
+.glass-button {
+    display: inline-block;
+    padding: 14px 28px;
+
+    color: #7C3AED;
+    background: rgba(255, 255, 255, 0.9);
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 12px;
+    transition: background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.glass-button:hover {
+    background: #FFFFFF;
+    transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+    .glass-card {
+        padding: 32px 24px;
+    }
+
+    .glass-card h1 {
+        font-size: 25px;
+    }
+}
+/* Главный приветственный экран */
+.hero {
+    min-height: 400px;
+
+    background-image:
+        linear-gradient(
+            rgba(15, 23, 42, 0.7),
+            rgba(124, 58, 237, 0.5)
+        ),
+        url('hero.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    color: #FFFFFF;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #A855F7;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    padding: 14px 28px;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    background-color: #7C3AED;
 }
