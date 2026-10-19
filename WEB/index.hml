@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>IT-клуб — школьная визитка</title>
+</head>
+
+<body>
+
+    <header>
+        <h2>Школьный IT-клуб</h2>
+
+        <nav>
+            <a href="#home">Главная</a> |
+            <a href="#about">О клубе</a> |
+            <a href="#schedule">Расписание</a> |
+            <a href="#registration">Запись</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="home">Визитка школьного IT-клуба</h1>
+
+        <section id="about">
+            <h2>О клубе</h2>
+
+            <p>
+                Добро пожаловать в школьный IT-клуб!
+                Здесь мы изучаем современные технологии,
+                программирование и создаём интересные проекты.
+            </p>
+
+            <h3>Наши направления</h3>
+
+            <ul>
+                <li>Python</li>
+                <li>Веб-дизайн</li>
+                <li>Робототехника</li>
+            </ul>
+
+            <figure>
+                <img
+                    src="images/it-club.jpg"
+                    alt="Ученики школьного IT-клуба за работой"
+                    width="500"
+                >
+                <figcaption>Участники школьного IT-клуба</figcaption>
+            </figure>
+        </section>
+
+        <section id="schedule">
+            <h2>Расписание занятий</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Дни</th>
+                        <th>Время</th>
+                        <th>Кабинет</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Понедельник</td>
+                        <td>15:00–16:00</td>
+                        <td>Кабинет 205</td>
+                    </tr>
+                    <tr>
+                        <td>Среда</td>
+                        <td>15:00–16:00</td>
+                        <td>Кабинет 001</td>
+                    </tr>
+                    <tr>
+                        <td>Пятница</td>
+                        <td>14:00–15:00</td>
+                        <td>Кабинет 001</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="registration">
+            <h2>Запись в IT-клуб</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="name">Имя:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="class">Класс:</label><br>
+                    <select id="class" name="class" required>
+                        <option value="">Выберите класс</option>
+                        <option value="5">5 класс</option>
+                        <option value="6">6 класс</option>
+                        <option value="7">7 класс</option>
+                        <option value="8">8 класс</option>
+                        <option value="9">9 класс</option>
+                        <option value="10">10 класс</option>
+                        <option value="11">11 класс</option>
+                        <option value="12">12 класс</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input
+                        type="checkbox"
+                        id="agreement"
+                        name="agreement"
+                        required
+                    >
+                    <label for="agreement">
+                        Я согласен(на) на обработку данных
+                    </label>
+                </p>
+
+                <button type="submit">Записаться в клуб</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Школьный IT-клуб</p>
+        <p>
+            Tallinna Mustjõe Gümnaasium:
+            <a href="mailto:info@mustjoe.edu.ee">
+                info@mustjoe.edu.ee
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
