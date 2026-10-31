@@ -237,3 +237,73 @@ body {
 .hero-button:hover {
     background-color: #7C3AED;
 }
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    color: #1E293B;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.65;
+}
+
+.date,
+small {
+    font-size: 0.875rem;
+    color: #64748B;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F8FAFC;
+    padding: 40px;
+    color: #1E293B;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    border-left: 4px solid #7C3AED;
+    padding: 20px 25px;
+    margin: 20px 0;
+    background-color: #F3E8FF;
+    font-style: italic;
+    color: #334155;
+}
+
+blockquote p:first-letter {
+    font-size: 3.5rem;
+    float: left;
+    margin-right: 12px;
+    color: #7C3AED;
+    font-weight: 700;
+    line-height: 1;
+}
